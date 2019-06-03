@@ -20,4 +20,6 @@ document.addEventListener('DOMContentLoaded',(e)=>{
     r3s1.innerHTML = shapeArray[Math.floor(Math.random() * 6)];
     r3s2.innerHTML = shapeArray[Math.floor(Math.random() * 6)];
     r3s3.innerHTML = shapeArray[Math.floor(Math.random() * 6)];
+
+    changeShape();
 });
