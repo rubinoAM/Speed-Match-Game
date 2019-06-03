@@ -22,15 +22,20 @@ body {
 
 .row{
     display:flex;
-    background:#fff;
 }
 
 .square{
     width:3.125rem;
     height:3.125rem;
+    background:#fff;
     display:flex;
     align-items:center;
     justify-content:center;
+    transition:0.2s ease-out background;
+}
+
+.square:hover{
+    background:#1d1d1d;
 }
 
 .shape{
@@ -56,4 +61,8 @@ body {
 
 .sun{
     color:#e95d32;
+}
+
+.flower{
+    color:#d67ef8;
 }
