@@ -32,3 +32,28 @@ body {
     align-items:center;
     justify-content:center;
 }
+
+.shape{
+    width:1.6875rem;
+    height:1.6875rem;
+}
+
+.puzzle{
+    color:#6ad7f8;
+}
+
+.heart{
+    color:#ee5394;
+}
+
+.note{
+    color:#3fca75;
+}
+
+.moon{
+    color:#f8ef6a;
+}
+
+.sun{
+    color:#e95d32;
+}
