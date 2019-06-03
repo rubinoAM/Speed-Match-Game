@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:500,700,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="./styles/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/rubric.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/players.css">
     <script src="./scripts/createShapes.js"></script>
     <script src="./scripts/changeShape.js"></script>
     <script src="./scripts/main.js"></script>
@@ -17,21 +19,63 @@
     <div class="header">
         <h1>SPEED MATCH</h1>
     </div>
-    <div class="grid">
-        <div class="row" id="row1">
-            <div class="square" id="r1s1"></div>
-            <div class="square" id="r1s2"></div>
-            <div class="square" id="r1s3"></div>
+    <div class="rubric-grid">
+        <div class="rubric-row" id="rubric-row1">
+            <div class="rubric-square" id="r1s1"></div>
+            <div class="rubric-square" id="r1s2"></div>
+            <div class="rubric-square" id="r1s3"></div>
         </div>
-        <div class="row" id="row2">
-            <div class="square" id="r2s1"></div>
-            <div class="square" id="r2s2"></div>
-            <div class="square" id="r2s3"></div>
+        <div class="rubric-row" id="rubric-row2">
+            <div class="rubric-square" id="r2s1"></div>
+            <div class="rubric-square" id="r2s2"></div>
+            <div class="rubric-square" id="r2s3"></div>
         </div>
-        <div class="row" id="row3">
-            <div class="square" id="r3s1"></div>
-            <div class="square" id="r3s2"></div>
-            <div class="square" id="r3s3"></div>
+        <div class="rubric-row" id="rubric-row3">
+            <div class="rubric-square" id="r3s1"></div>
+            <div class="rubric-square" id="r3s2"></div>
+            <div class="rubric-square" id="r3s3"></div>
+        </div>
+    </div>
+    <div class="players-container">
+        <div class="player-container">
+            <h3>Player One</h3>
+            <div class="player-grid" id="p1Grid">
+                <div class="player-row" id="playerOneR1">
+                    <div class="player-square" id="p1r1s1"></div>
+                    <div class="player-square" id="p1r1s2"></div>
+                    <div class="player-square" id="p1r1s3"></div>
+                </div>
+                <div class="player-row" id="playerOneR2">
+                    <div class="player-square" id="p1r2s1"></div>
+                    <div class="player-square" id="p1r2s2"></div>
+                    <div class="player-square" id="p1r2s3"></div>
+                </div>
+                <div class="player-row" id="playerOneR3">
+                    <div class="player-square" id="p1r3s1"></div>
+                    <div class="player-square" id="p1r3s2"></div>
+                    <div class="player-square" id="p1r3s3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="player-container">
+            <h3>Player Two</h3>
+            <div class="player-grid" id="p2Grid">
+                <div class="player-row" id="playerTwoR1">
+                    <div class="player-square" id="p2r1s1"></div>
+                    <div class="player-square" id="p2r1s2"></div>
+                    <div class="player-square" id="p2r1s3"></div>
+                </div>
+                <div class="player-row" id="playerTwoR2">
+                    <div class="player-square" id="p2r2s1"></div>
+                    <div class="player-square" id="p2r2s2"></div>
+                    <div class="player-square" id="p2r2s3"></div>
+                </div>
+                <div class="player-row" id="playerTwoR3">
+                    <div class="player-square" id="p2r3s1"></div>
+                    <div class="player-square" id="p2r3s2"></div>
+                    <div class="player-square" id="p2r3s3"></div>
+                </div>
+            </div>
         </div>
     </div>
 </body>

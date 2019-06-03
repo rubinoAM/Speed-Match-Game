@@ -14,30 +14,6 @@ body {
     color:#fff;
 }
 
-.grid{
-    margin:0 auto;
-    width:9.375rem;
-    border:1px solid #1b254e;
-}
-
-.row{
-    display:flex;
-}
-
-.square{
-    width:3.125rem;
-    height:3.125rem;
-    background:#fff;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    transition:0.2s ease-out background;
-}
-
-.square:hover{
-    background:#1d1d1d;
-}
-
 .puzzle{
     color:#6ad7f8;
 }
