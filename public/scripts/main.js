@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded',(e)=>{
     fillP1Grid();
     fillP2Grid();
 
-    changeShape();
+    //changeShape();
     changeShapeP1();
     changeShapeP2();
 });

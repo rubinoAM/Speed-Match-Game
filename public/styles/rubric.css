@@ -17,8 +17,3 @@
     justify-content:center;
     transition:0.2s ease-out background;
 }
-
-.rubric-square:hover{
-    cursor:pointer;
-    background:#1d1d1d;
-}
