@@ -3,7 +3,9 @@ document.addEventListener('DOMContentLoaded',(e)=>{
     fillP1Grid();
     fillP2Grid();
 
-    //changeShape();
+    let rubric = valuesRubric();
+    console.log(rubric);
+
     changeShapeP1();
     changeShapeP2();
 });
