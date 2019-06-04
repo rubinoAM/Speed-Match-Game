@@ -1,16 +1,22 @@
+let rubricValues = [];
+let p1Values = [];
+let p2Values = [];
+
 document.addEventListener('DOMContentLoaded',(e)=>{
     fillRubric();
     fillP1Grid();
     fillP2Grid();
 
-    let rubricValues = valuesRubric();
-    let p1Values = valuesP1();
-    let p2Values = valuesP2();
-
-    console.log(rubricValues);
-    console.log(p1Values);
-    console.log(p2Values);
+    rubricValues = createValuesRubric();
+    p1Values = createValuesP1();
+    p2Values = createValuesP2();
 
     changeShapeP1();
     changeShapeP2();
+
+    setTimeout(()=>{
+        setInterval(()=>{
+            checkValues(rubricValues,p1Values,p2Values);
+        },10000);
+    },2000);
 });

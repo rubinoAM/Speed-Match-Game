@@ -1,4 +1,4 @@
-function valuesRubric(){
+function createValuesRubric(){
     const r1s1 = document.getElementById('r1s1');
     const r1s2 = document.getElementById('r1s2');
     const r1s3 = document.getElementById('r1s3');
@@ -25,7 +25,7 @@ function valuesRubric(){
         r3s1.dataset.shape, r3s2.dataset.shape, r3s3.dataset.shape];
 }
 
-function valuesP1(){
+function createValuesP1(){
     const r1s1 = document.getElementById('p1r1s1');
     const r1s2 = document.getElementById('p1r1s2');
     const r1s3 = document.getElementById('p1r1s3');
@@ -52,7 +52,7 @@ function valuesP1(){
         r3s1.dataset.shape, r3s2.dataset.shape, r3s3.dataset.shape];
 }
 
-function valuesP2(){
+function createValuesP2(){
     const r1s1 = document.getElementById('p2r1s1');
     const r1s2 = document.getElementById('p2r1s2');
     const r1s3 = document.getElementById('p2r1s3');
