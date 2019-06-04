@@ -14,9 +14,10 @@ document.addEventListener('DOMContentLoaded',(e)=>{
     changeShapeP1();
     changeShapeP2();
 
-    setTimeout(()=>{
-        setInterval(()=>{
-            checkValues(rubricValues,p1Values,p2Values);
-        },10000);
-    },2000);
+    checkValues(rubricValues,p1Values,p2Values);
+    // setTimeout(()=>{
+    //     setInterval(()=>{
+    //         checkValues(rubricValues,p1Values,p2Values);
+    //     },10000);
+    // },2000);
 });
