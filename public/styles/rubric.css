@@ -1,7 +1,6 @@
 .rubric-grid{
     margin:0 auto;
     width:9.375rem;
-    border:1px solid #1b254e;
 }
 
 .rubric-row{
@@ -16,4 +15,25 @@
     align-items:center;
     justify-content:center;
     transition:0.2s ease-out background;
+}
+
+#r1s1{
+    border-top-left-radius: 1rem;
+}
+
+#r1s3{
+    border-top-right-radius: 1rem;
+}
+
+#r3s1{
+    border-bottom-left-radius: 1rem;
+}
+
+#r3s3{
+    border-bottom-right-radius: 1rem;
+}
+
+.rubric-square:hover{
+    cursor:default;
+    background:#ccebfa;
 }

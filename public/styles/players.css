@@ -19,7 +19,6 @@
 
 .player-grid{
     width:13.5rem;
-    border:1px solid #1b254e;
 }
 
 .player-row{
@@ -33,12 +32,44 @@
     display:flex;
     align-items:center;
     justify-content:center;
-    transition:0.2s ease-out background;
+    transition:0.2s ease-out all;
 }
+
+#p1r1s1, #p2r1s1{
+    border-top-left-radius: 1.25rem;
+}
+
+#p1r1s1:hover, #p2r1s1:hover{
+    border-top-left-radius: 1.875rem;
+}
+
+#p1r1s3, #p2r1s3{
+    border-top-right-radius: 1.25rem;
+}
+
+#p1r1s3:hover, #p2r1s3:hover{
+    border-top-right-radius: 1.875rem;
+}
+
+#p1r3s1, #p2r3s1{
+    border-bottom-left-radius: 1.25rem;
+}
+
+#p1r3s1:hover, #p2r3s1:hover{
+    border-bottom-left-radius: 1.875rem;
+}
+
+#p1r3s3, #p2r3s3{
+    border-bottom-right-radius: 1.25rem;
+}  
+
+#p1r3s3:hover, #p2r3s3:hover{
+    border-bottom-right-radius: 1.875rem;
+} 
 
 .player-square:hover{
     cursor:pointer;
-    background:#1d1d1d;
+    background:#a4baf7;
 }
 
 .player-square .shape i.material-icons{
